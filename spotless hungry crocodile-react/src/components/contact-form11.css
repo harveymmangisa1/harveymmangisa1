@@ -1,0 +1,198 @@
+.contact-form11-contact11 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1603297638322-c7a08d52966c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQ1fHxjb250YWN0fGVufDB8fHx8MTcyNjMwNTE1Nnww&ixlib=rb-4.0.3&w=1500"),linear-gradient(to right, #fc00ff 0%, #00dbde 100%);
+}
+.contact-form11-max-width {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form11-row {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-form11-content1 {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form11-contact-info1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form11-content2 {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form11-contact-info2 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form11-content3 {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form11-contact-info3 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form11-content4 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.contact-form11-form {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact-form11-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.contact-form11-input1 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-form11-text10 {
+  font-family: "Space Grotesk";
+}
+.contact-form11-input2 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-form11-text11 {
+  font-family: "Space Grotesk";
+}
+.contact-form11-input3 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-form11-text-input3 {
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.contact-form11-input4 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-form11-text14 {
+  display: inline-block;
+}
+.contact-form11-text17 {
+  display: inline-block;
+  font-family: "Space Grotesk";
+}
+.contact-form11-text18 {
+  display: inline-block;
+  font-family: "Space Grotesk";
+}
+.contact-form11-text19 {
+  display: inline-block;
+  font-style: normal;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .contact-form11-content1 {
+    width: 50%;
+  }
+  .contact-form11-content2 {
+    width: 50%;
+  }
+  .contact-form11-content3 {
+    width: 50%;
+  }
+  .contact-form11-form {
+    width: 50%;
+  }
+}
+@media(max-width: 767px) {
+  .contact-form11-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .contact-form11-row {
+    flex-direction: column;
+  }
+  .contact-form11-content1 {
+    width: 100%;
+  }
+  .contact-form11-content2 {
+    width: 100%;
+  }
+  .contact-form11-content3 {
+    width: 100%;
+  }
+  .contact-form11-content4 {
+    flex-direction: column;
+  }
+  .contact-form11-form {
+    width: 100%;
+  }
+  .contact-form11-text10 {
+    color: #ffffff;
+    align-self: flex-end;
+  }
+  .contact-form11-text11 {
+    color: #ffffff;
+    align-self: flex-end;
+  }
+  .contact-form11-text12 {
+    color: #ffffff;
+    align-self: flex-end;
+  }
+  .contact-form11-text13 {
+    color: #ffffff;
+    align-self: flex-end;
+  }
+  .contact-form11-text17 {
+    color: #ffffff;
+    font-family: Space Grotesk;
+  }
+  .contact-form11-text18 {
+    color: #ffffff;
+  }
+  .contact-form11-text19 {
+    color: #ffffff;
+  }
+}

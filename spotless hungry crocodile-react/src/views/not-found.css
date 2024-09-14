@@ -1,0 +1,50 @@
+.not-found1-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.not-found1-container2 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.not-found1-text2 {
+  color: rgb(38, 38, 38);
+  font-size: 252px;
+  margin-top: -20px;
+  font-weight: 900;
+  margin-bottom: -20px;
+  letter-spacing: -20px;
+}
+.not-found1-container3 {
+  width: 421px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.not-found1-text3 {
+  text-align: center;
+  font-weight: 400;
+}
+@media(max-width: 991px) {
+  .not-found1-container1 {
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1517866184231-7ef94c2ea930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8c2VhcmNofDM2fHxzcGFjZXxlbnwwfHx8fDE3MjYzMDg4MTd8MA&ixlib=rb-4.0.3&q=80&w=1080");
+  }
+  .not-found1-text2 {
+    color: #ffffff;
+    font-size: 252px;
+    font-weight: 900;
+    letter-spacing: -20px;
+  }
+  .not-found1-text3 {
+    color: #ffffff;
+    font-weight: 400;
+  }
+}

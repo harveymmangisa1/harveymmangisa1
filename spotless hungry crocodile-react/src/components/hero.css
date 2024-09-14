@@ -1,0 +1,62 @@
+.hero-header78 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGNvbXB1dGVyfGVufDB8fHx8MTcyNjIxMDg0OHww&ixlib=rb-4.0.3&w=1500");
+}
+.hero-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.hero-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text1 {
+  color: #ffffff;
+  font-family: "Space Grotesk";
+}
+.hero-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+}
+.hero-container2 {
+  display: contents;
+}
+.hero-text5 {
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Space Grotesk";
+}
+.heroroot-class-name {
+  align-self: center;
+}
+@media(max-width: 479px) {
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero-button1 {
+    width: 100%;
+  }
+  .hero-button2 {
+    width: 100%;
+  }
+}
